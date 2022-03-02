@@ -1,8 +1,63 @@
 /* 
 font-family: 'Chivo', sans-serif;
 font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; 
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
 */
+/* ALL FONT CUSTOMIZE */
+.tdi_23 h3.entry-title {
+    margin: 15px 0 0 0;
+    font-family: 'Chivo', sans-serif;
+    font-size: 26px  ;
+    line-height: 1.2  ;
+    font-weight: 900  ;
+}
+.tdi_25 h3.entry-title {
+    margin: 0px;
+    font-family: 'Chivo', sans-serif;
+    font-size: 15px  ;
+    line-height: 1.1  ;
+    font-weight: 900  ;
+}
+.tdi_119 h3.entry-title {
+    font-family: 'Chivo', sans-serif;
+    font-size: 24px  ;
+    line-height: 1.2  ;
+    font-weight: 900  ;
+}
+.tdi_119 a {
+    color: #ffffff;
+}
+.tdi_119 a.td-post-category {
+    display: none;
+}
+.tdi_118 .entry-title a {
+    color: #000000;
+}
+.tdi_118 h3.entry-title {
+    margin: 0 0 10px;
+    font-family: 'Roboto Slab' , serif;
+    font-size: 20px  ;
+    line-height: 1.3  ;
+    font-weight: 900  ;
+}
+.td-editor-date {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px  ;
+    line-height: 1  ;
+    font-weight: 600  ;
+    text-transform: uppercase  ;
+}
+.td-editor-date a.td-post-category {
+    color: #aaaaaa;
+}
+span.td-post-date {
+    color: #aaaa;
+}
+.td-editor-date a.td-post-category:hover{
+    color: #333333;
+}
+/* ALL FONT CUSTOMIZE */
 /**
 COMMON CSS START
 **/
@@ -24,6 +79,7 @@ h1, h2, h3, h4, h5, h6{
 ul, li, a{
     list-style: none;
     text-decoration: none;
+    color: #111111;
 }
 .container {
     max-width: 1400px;
@@ -118,9 +174,9 @@ span.logo-text-title{
     -webkit-text-fill-color: transparent;
     color: #000000;
     font-family: 'Chivo', sans-serif;
-    font-size: 54px !important;
-    line-height: 1.2 !important;
-    font-weight: 900 !important;
+    font-size: 54px  ;
+    line-height: 1.2  ;
+    font-weight: 900  ;
 
 }
 span.logo-text-tagline {
@@ -128,11 +184,10 @@ span.logo-text-tagline {
     margin-left: 6px;
     display: block;
     color: #000000;
-    font-family: Chivo !important;
-    font-size: 40px !important;
-    line-height: 1.2 !important;
-    font-weight: 900 !important;
-    letter-spacing: -1px !important;
+    font-family: 'Chivo', sans-serif;
+    line-height: 1.2  ;
+    font-weight: 900  ;
+    letter-spacing: -1px  ;
 }
 .header-section .column_25 {
     width: 25%;
@@ -166,6 +221,13 @@ MAIN SECTION START
 /**
 ID tdi01 SECTION START
 **/
+.tdi_12 .tdi_23{
+    overflow-y: hidden;
+    height: auto;
+}
+.tdi_12 .tdi_23 .td_module_flex:hover .entry-title a{
+    color: #444444;
+}
 .tdi_10 {
     margin-bottom: 20px;
     padding-top: 60px;
@@ -186,10 +248,25 @@ ID tdi01 SECTION START
 }
 #faka .td-image-container {
     width: 100%;
+    margin-bottom: 10px;
 }
 #faka .td-module-container {
     flex-direction: column;
 }
+.tdi_11 .tdi_23{
+    height: auto;
+    overflow-y: hidden;
+}
+.tdi_11 .tdi_23:hover .entry-title a{
+    color: #444444;
+}
+.tdi_11 .tdi_23 h3.entry-title {
+    
+    font-size: 48px  ;
+    ;
+}
+
+
 /**
 ID tdi01 SECTION END
 **/
@@ -204,13 +281,21 @@ ID tdi02 SECTION START
     position: relative;
 }
 .tdi_16 {
-    margin-bottom: 30px !important;
-    padding-right: 25px !important;
-    padding-left: 25px !important;
-    width: auto !important;
+    margin-bottom: 30px  ;
+    padding-right: 25px  ;
+    padding-left: 25px  ;
+    width: auto  ;
     position: relative;
-    display: inline-block;
+    
 }
+.tdi_35 .tdi_23 {
+    height: auto;
+    overflow-y: hidden;
+}
+.tdi_35 .tdi_23:hover .entry-title a{
+    color: #444444;
+}
+
 
 /**
 ID tdi02 SECTION END
@@ -221,13 +306,15 @@ ID tdi03 SECTION START
 .tdi_17 {
     background-color: #000;
     padding: 5px 20px;
+    display: inline-block;
+    margin: 0 5px;
 }
 .tdi_17 h3.tdm-title {
     color: #ffffff;
     font-family: 'Chivo', sans-serif;
-    font-size: 28px !important;
-    line-height: 1.1 !important;
-    font-weight: 700 !important;
+    font-size: 28px  ;
+    line-height: 1.1  ;
+    font-weight: 700  ;
     text-transform: uppercase;
     margin-top: 2px;
 }
@@ -246,7 +333,7 @@ ID tdi03 SECTION START
     padding: 20px 0 0 0;
     border-width: 1px 0 0 0;
     border-style: solid;
-    border-color: #eaeaea !important;
+    border-color: #eaeaea  ;
 }
 .td-load-more-wrap {
     margin-top: 40px;
@@ -257,10 +344,10 @@ a.td_ajax_load_more {
     background-color: #eaeaea;
     padding: 12px 20px;
     border-width: 0px;
-    font-family: Raleway !important;
-    font-size: 12px !important;
-    font-weight: 800 !important;
-    letter-spacing: 0.5px !important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px  ;
+    font-weight: 800  ;
+    letter-spacing: 0.5px  ;
 }
 /**
 ID tdi03 SECTION END
@@ -269,7 +356,7 @@ ID tdi03 SECTION END
 ID tdi04 SECTION START
 **/
 #tdi04 {
-    width: 1068px;
+    max-width: 1068px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -288,11 +375,11 @@ ID tdi05 SECTION START
     background-color: #000000;
 }
 #tdi05 .vc_row {
-    margin-bottom: 100px !important;
-    padding-top: 60px !important;
-    padding-right: 10px !important;
-    padding-bottom: 80px !important;
-    padding-left: 10px !important;
+    margin-bottom: 100px  ;
+    padding-top: 60px  ;
+    padding-right: 10px  ;
+    padding-bottom: 80px  ;
+    padding-left: 10px  ;
     position: relative;
 }
 #tdi05 .vc_row_inner {
@@ -304,12 +391,12 @@ ID tdi05 SECTION START
     margin-bottom: 12.5px;
 }
 #tdi05 h3.tdm-title {
-    font-family: Chivo !important;
-    font-size: 54px !important;
-    line-height: 1 !important;
-    font-weight: 900 !important;
-    text-transform: uppercase !important;
-    letter-spacing: 0.5px !important;
+    font-family: 'Chivo', sans-serif;
+    font-size: 54px  ;
+    line-height: 1  ;
+    font-weight: 900  ;
+    text-transform: uppercase  ;
+    letter-spacing: 0.5px  ;
     color: #ffffff;
 }
 #tdi05 .vc_column_inner {
@@ -322,12 +409,12 @@ element.style {
 a.tds-button1 {
     height: auto;
     padding: 12px 24px;
-    font-family: Raleway !important;
-    font-size: 13px !important;
-    line-height: 1.2 !important;
-    font-weight: 700 !important;
-    text-transform: uppercase !important;
-    letter-spacing: 0.5px !important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px  ;
+    line-height: 1.2  ;
+    font-weight: 700  ;
+    text-transform: uppercase  ;
+    letter-spacing: 0.5px  ;
     background-color: #444444;
     color: #fff;
 }
@@ -338,6 +425,12 @@ a.tds-button1 {
     padding-bottom: 12.5px;
     margin-bottom: 12.5px;
     
+}
+.tdi_119 a:hover {
+    color: #ffffff;
+}
+.tdi_119 .td_module_flex:hover a{
+    color: #aaaaaa;
 }
 /**
 ID tdi05 SECTION END
@@ -368,9 +461,29 @@ a.td_single-image-bg{
     justify-content: center;
     border-color: #eaeaea;
 }
-.tdi_122 {
+.tdi_22 {
     display: flex;
     column-gap: 20px;
+}
+#tdi_31 {
+    font-family: 'Chivo', sans-serif;
+    font-size: 54px  ;
+    line-height: 1  ;
+    font-weight: 900  ;
+    margin: 10px 0;
+}
+#tdi_32{
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px  ;
+    line-height: 1.4  ;
+    font-weight: 600  ;
+}
+.tdi_33{
+    margin-bottom: 60px;
+}
+#tdi_134{
+    font-size: 20px  ;
 }
 /**
 ID tdi06 SECTION END
@@ -387,6 +500,27 @@ ID tdi07 SECTION END
 /**
 ID tdi08 SECTION START
 **/
+.column-50 .td-module-meta-info {
+    width: 80%;
+}
+.column-50 a.td-post-category {
+    display: none;
+}
+.column-50 h3.entry-title {
+    font-family: 'Chivo', sans-serif;
+    font-size: 40px  ;
+    line-height: 1.3  ;
+    font-weight: 900  ;
+}
+.column-25 a.td-post-category {
+    display: none;
+}
+.column-25 h3.entry-title {
+    font-family: 'Roboto Slab' serif;
+    font-size: 20px  ;
+    line-height: 1.3  ;
+    font-weight: 900  ;
+}
 #tdi08 .vc_row {
     display: flex;
     margin-bottom: 100px;
@@ -426,15 +560,113 @@ ID tdi08 SECTION END
 /**
 ID tdi09 SECTION START
 **/
+#tdi09 .column-25 .wpb_wrapper {
+    width: 318px;
+}
+.tdi_23 a.td-post-category:hover{
+    color: #aaaaaa;
+}
+.tdb_module_loop:hover a{
+    color: #444444;
+}
+.tdi_30{
+    margin-bottom: 30px;
+}
+.tdi_23 a.td-post-category {
+    padding: 8px 12px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #eaeaea;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px  ;
+    line-height: 1  ;
+    font-weight: 700  ;
+    text-transform: uppercase  ;
+    letter-spacing: 0.5px  ;
+    display: inline-block;
+    align-self: flex-start;
+}
 #tdi09 .vc_row {
     margin-bottom: 100px;
     display: flex;
+    column-gap: 20px;
 }
 .column-75{
     width: 75%;
 }
 .column-25{
     width: 25%;
+}
+.column-75 .tdm_block {
+    margin-bottom: 25px;
+    margin-top: -18px;
+    display: inline-block;
+}
+.column-75 .tdm_block.tdi_17 {
+    background-color: transparent;
+    padding-left: 0;
+}
+.column-75 h3.tdm-title {
+    color: #000000;
+    font-family: 'Chivo', sans-serif;
+    font-size: 54px  ;
+    /* line-height: 1  ;
+    font-weight: 900  ;
+    text-transform: uppercase  ;
+    letter-spacing: -0.5px  ; */
+}
+.tdb_module_loop {
+    width: 48%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+}
+.column-75 .td_block_wrap {
+    display: flex;
+    flex-direction: column;
+}
+.tdi_23 {
+    height: 1315px;
+    -ms-overflow-style: none;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.tdi_24.td_block_wrap {
+    margin: 0 5px 40px 5px;
+}
+img {
+    width: 100%;
+}
+.tdi_25 a.td-post-category {
+    display: none;
+}
+.tdi_25 .td_module_flex {
+    width: 45%;
+    float: left;
+    padding: 0 5px 10px 5px;
+    margin-bottom: 10px;
+}
+.tdi_25 .td_module_flex:nth-last-child(-n+2){
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.tdi_25 .td-module-container{
+    flex-direction: column;
+}
+.tdi_25 .td-image-container{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.tdi_25 .td-module-meta-info{
+    padding-left: 0;
 }
 /**
 ID tdi09 SECTION END
@@ -443,3 +675,149 @@ ID tdi09 SECTION END
 /**
 MAIN SECTION END
 **/
+/**
+FOOTER SECTION START
+**/
+footer.td-footer-template-wrap {
+    background-color: #000000;
+}
+.td-footer-wrap .vc_row {
+    padding-top: 60px;
+    padding-bottom: 40px
+}
+.vc_row_inner{
+    display: flex;
+}
+.tdi_25{
+    margin-bottom: 50px   ;
+    padding-bottom: 40px   ;
+    border-color: rgba(255,255,255,0.25)   ;
+    border-style: solid   ;
+    border-width: 0px 0px 1px 0px   ;
+    
+}
+.tdi_25 span.logo-text-title {
+    -webkit-text-fill-color: #ffffff;
+}
+.tdi_25 span.logo-text-tagline {
+    color: #ffffff;
+}
+.tdi_26{
+    width: 25%;
+    float: left;
+}
+.tdi_27{
+    width: 75%;
+}
+form.tds-form {
+    display: flex;
+}
+.tds-email-bar {
+    flex: 1;
+}
+input.tds-input {
+    padding: 18px;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 0px;
+    color: #ffffff;
+    background-color: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px  ;
+    line-height: 1.2  ;
+    font-weight: 600  ;
+    letter-spacing: 0.5px  ;
+    width: 100%;
+}
+button.tds-submit-btn {
+    padding: 16px 25px;
+    border-color: transparent;
+    justify-content: center;
+    color: #000000;
+    background-color: #aaaaaa;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px  ;
+    line-height: 1.2  ;
+    font-weight: 900  ;
+    text-transform: uppercase  ;
+    letter-spacing: 0.5px  ;
+}
+.tdi_28{
+    margin-bottom: 50px;
+}
+.tdi_28 .vc_column_inner{
+    width: 25%;
+    float: left;
+}
+.tdi_28 .tdm_block {
+    margin-bottom: 20px;
+}
+.tdi_28 h3.tdm-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #aaaaaa;
+}
+li.menu-item {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.menu-item a {
+    padding: 4px 10px;
+    background-color: #000;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    padding-left: 0;
+    color: #ffffff;
+}
+.menu-item a:hover{
+    padding: 4px 10px 4px 20px;
+    background-color: #fff;
+    color: #000000;
+}
+i.fa-brands {
+    width: 25px;
+    height: 36px;    
+    color: #ffffff;
+}
+a.tdm-social-text {
+    display: inline-block;
+    margin-right: 0px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px  ;
+    line-height: 1.2  ;
+    font-weight: 900  ;
+    text-transform: uppercase  ;
+    padding: 4px 10px;
+    background-color: #000;
+    transition: all 0.2s ease-in-out;
+}
+a.tdm-social-text:hover{
+    padding: 4px 10px 4px 20px;
+    background-color: #fff;
+    color: #000000;
+}
+.tdi_29{
+    padding-top: 36px    ;
+    border-color: rgba(255,255,255,0.25)    ;
+    border-style: solid    ;
+    border-width: 1px 0px 0px 0px    ;
+    justify-content: center;
+}
+p.tdm-descr {
+    color: #aaaaaa;
+    font-family: Raleway  ;
+    font-size: 15px  ;
+    line-height: 1.4  ;
+    font-weight: 600  ;
+}
+/**
+FOOTER SECTION END
+**/
+
