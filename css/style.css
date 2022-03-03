@@ -289,9 +289,16 @@ MAIN SECTION START
 /**
 ID tdi01 SECTION START
 **/
+.tdi_11 .wpb_wrapper.tdi_23 {
+    margin-bottom: 0;
+}
+.tdi_11 .td-image-container {
+    flex: 0 0 54%;
+}
 .tdi_12 .tdi_23{
     overflow-y: hidden;
     height: auto;
+    margin-bottom: 0;
 }
 .tdi_12 .tdi_23 .td_module_flex:hover .entry-title a{
     color: #444444;
@@ -300,6 +307,7 @@ ID tdi01 SECTION START
     margin-bottom: 20px;
     padding-top: 60px;
     display: flex;
+    column-gap: 20px;
 }
 .tdi_11 {
     width: 60%;
@@ -329,11 +337,9 @@ ID tdi01 SECTION START
     color: #444444;
 }
 .tdi_11 .tdi_23 h3.entry-title {
-    
-    font-size: 48px  ;
-    ;
+    font-size: 45px;
+    line-height: 1.0;
 }
-
 
 /**
 ID tdi01 SECTION END
