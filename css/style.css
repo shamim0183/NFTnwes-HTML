@@ -144,6 +144,51 @@ span.entry-thumb {
 COMMON CSS END
 **/
 /**
+HOVER MEMU SECTION START
+**/
+.hover-menu {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+/* #tdi_137{
+    transform: translateX(calc(-100% - 1px));
+    transition: opacity .2s ease-out, transform .2s ease-out;
+    display: none;
+    
+}
+.tds-button:hover #tdi_137{
+    display: block;
+    transform: translateX(calc(-100% - -100%));
+} */
+span.close-btn {
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 1.2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+   
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    transition: 1s;
+  }
+/**
+HOVER MEMU SECTION END
+**/
+
+/**
 HEADER SECTION START
 **/
 .tds-button {
