@@ -837,7 +837,7 @@ form.tds-form {
 input.tds-input {
     padding: 18px;
     border-width: 0px;
-    border-style: solid;
+    border-style: none;
     border-radius: 0px;
     color: #ffffff;
     background-color: #333333;
@@ -847,6 +847,7 @@ input.tds-input {
     font-weight: 600  ;
     letter-spacing: 0.5px  ;
     width: 100%;
+    outline: none;
 }
 button.tds-submit-btn {
     padding: 16px 25px;
